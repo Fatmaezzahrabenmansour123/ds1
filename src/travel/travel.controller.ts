@@ -18,7 +18,7 @@ export class TravelController {
       return this.travelService.trips[i];
   
     }}
-
+    /* d;ld;ld*/
   @Get(':id')
   findOne(@Param('id') id: number) {
      for(let i = 0; i <= this.travelService.trips.length; i++){
